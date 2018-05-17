@@ -3,7 +3,7 @@ import json
 import os
 import MySQLdb
 
-db = MySQLdb.connect("localhost","root","pany8491","Twitch",charset="utf8" )
+db = MySQLdb.connect("localhost","USER","PASS","DBNAME",charset="utf8" )
 
 class TwitchAPI:
 

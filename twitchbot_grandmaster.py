@@ -31,10 +31,10 @@ logger.addHandler(ch)
 
 class TwitchBot(Thread):
 
-	PASS="oauth:sgt8c7abih2f72ta0mnwd9svzgem47" ##Instead of a password, use this http://twitchapps.com/tmi/
-	NICK="roland_deschain_69"
-	REALNAME="roland_deschain_69"
-	IDENT="roland_deschain_69" ##Bot username again
+	PASS="OAUTH_VAL" ##Instead of a password, use this http://twitchapps.com/tmi/
+	NICK="BOT_USERNAME"
+	REALNAME="BOT_USERNAME"
+	IDENT="BOT_USERNAME" ##Bot username again
 
 	def __init__(self, iChannel):
 		Thread.__init__(self, None, self.run)

@@ -19,7 +19,7 @@ crawlDict = {}
 MAX_CURRENT_CRAWLS = 300
 
 def signal_term_handler(signal, frame):
-    raise Exception("SIGHEIL")
+    raise Exception("SIGSIG")
 
 signal.signal(signal.SIGTERM, signal_term_handler)
 
